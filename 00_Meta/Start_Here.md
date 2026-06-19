@@ -7,7 +7,7 @@
 **Genre:** 2D Stealth-Platformer / Metroidvania  
 **Language:** English  
 **Font:** M5x7 or Pixel Operator  
-**Art:** 32×32 placeholder → pixel-art (SpriteSheets, 4-dir, flip H)  
+**Art:** 32×32 placeholder → pixel-art  
 **Audio:** Freesound / itch.io free assets  
 **Leonardo.Ai:** Concept art & textures (Free Plan, 150 tokens/day)  
 
@@ -18,6 +18,7 @@
 - [[Answers_Bible]] — All 88 answered questions (single source of truth)
 - [[Project_Manifest_v2]] — Goals, scope, format, platform
 - [[Team_Charter_v2]] — Roles & workflow
+- [[Lore_Bible]] — Universe lore (Kill a Horse of Freedom)
 - [[GDD_Core_v2]] — Game Design Document
 - [[Godot_Architecture_v2]] — Scene Tree, AutoLoad, folders
 - [[Master_Plan_v2]] — 22 Checkpoints (CP-0..CP-21)
