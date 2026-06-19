@@ -68,6 +68,6 @@ blurry, low quality, deformed hands, extra fingers, watermark, text, logo, cropp
 ```
 
 ## Связанные файлы
-- [[Leonardo_AI_Pipeline_v2]] — полный процесс и токен-экономика
+- [[Leonardo_AI_Pipeline]] — полный процесс и токен-экономика
 - [[Asset_Inventory]] — учёт сгенерированных артов
 - [[Art_Conventions]] — размеры, палитра, импорт

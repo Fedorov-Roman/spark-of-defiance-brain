@@ -55,6 +55,6 @@ CP-0 → CP-1 → CP-2 → CP-4 → CP-6 → CP-5 → CP-7 → CP-8 → CP-9 →
 ## Связанные разделы
 
 - [[MOC_05_Production]]
-- [[CP_Index]]
+- [[MOC_CP_Tracker]]
 - [[Decision_Log]]
 - [[Risk_Register]]

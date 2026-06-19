@@ -12,5 +12,5 @@
 ## Связанные разделы
 
 - [[MOC_99_Templates]]
-- [[CP_Index]]
+- [[MOC_CP_Tracker]]
 - [[Master_Plan_v2]]

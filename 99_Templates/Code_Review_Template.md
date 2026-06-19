@@ -11,5 +11,5 @@
 ## Связанные разделы
 
 - [[MOC_99_Templates]]
-- [[Bug_Tracker]]
-- [[CP_Index]]
+- Bug Tracker
+- [[MOC_CP_Tracker]]

@@ -11,20 +11,20 @@ Development checkpoints for *Spark of Defiance*. Each CP is a complete, testable
 ## Core Mechanics (CP-3..CP-5)
 
 - [[CP-3_Time_Dagger]]
-- [[CP-4_Enemies_AI]]
-- [[CP-5_Combat_Weapons]]
+- [[CP-4_Placeholder]]
+- [[CP-5_Placeholder]]
 
 ## World Building (CP-6..CP-9)
 
-- [[CP-6_Level_Design_Zone1]]
+- [[CP-6_Placeholder]]
 - [[CP-7_Boss_1_Leviathan]]
-- [[CP-8_Level_Design_Zone2]]
-- [[CP-9_Level_Design_Zone3]]
+- [[CP-8_Placeholder]]
+- [[CP-9_Placeholder]]
 
 ## Bosses & Polish (CP-10..CP-11)
 
-- [[CP-10_Boss_2_Helios7]]
-- [[CP-11_Boss_3_Biomechanoid]]
+- [[CP-10_Placeholder]]
+- [[CP-11_Placeholder]]
 
 ## Up
 

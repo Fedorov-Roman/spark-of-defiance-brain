@@ -37,7 +37,7 @@
 
 ## Связанные разделы
 
-- [[CP_Index]]
+- [[MOC_CP_Tracker]]
 - [[MOC_05_Production]]
 - [[Master_Plan_v2]]
 - [[CP_Template]]

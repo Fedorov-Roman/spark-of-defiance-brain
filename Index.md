@@ -47,7 +47,7 @@ This Obsidian vault contains the complete knowledge base for *Spark of Defiance*
 - [[Risk_Register]] | [[Decision_Log]] | [[Audit_Report]]
 
 ### Godot Project (Code)
-- [[MOC_06_Project]] — Actual Godot files
+- [[MOC]] — Actual Godot files
 - `project.godot` — Engine settings
 - `entities/player/player.gd` — Working player controller
 - `systems/autoload/save_manager.gd` — Save/load system

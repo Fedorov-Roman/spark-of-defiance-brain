@@ -6,9 +6,9 @@ var unlocked_abilities: Dictionary = {}
 var data_drives: int = 0
 var discovered_pads: Dictionary = {}
 func rescue_npc(id: String) -> void:
-    if not rescued_npcs.get(id, false): rescued_npcs[id] = true; emit_signal("npc_rescued", id)
+    if not rescued_npcs.get(id, false): rescued_npcs[id] = true; npc_rescued.emit(id)
 func unlock_ability(id: String) -> void:
-    if not unlocked_abilities.get(id, false): unlocked_abilities[id] = true; emit_signal("ability_unlocked", id)
+    if not unlocked_abilities.get(id, false): unlocked_abilities[id] = true; ability_unlocked.emit(id)
 func has_ability(id: String) -> bool: return unlocked_abilities.get(id, false)
 func discover_pad(id: String) -> void: discovered_pads[id] = true
 func serialize() -> Dictionary: return {"npcs": rescued_npcs.duplicate(), "abilities": unlocked_abilities.duplicate(), "drives": data_drives, "pads": discovered_pads.duplicate()}

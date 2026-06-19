@@ -5,7 +5,7 @@
 ## 1. Obsidian: первый запуск
 1. Установите Obsidian (https://obsidian.md)
 2. Откройте папку `spark-of-defiance-brain/` как Vault
-3. Включите: Settings → Files and links → Use [[Wikilinks]]
+3. Включите: Settings → Files and links → Use Wikilinks
 4. Откройте граф: Ctrl+G (или Cmd+G) — вы увидите связи между файлами
 5. Начните с [[Index]] или [[Start_Here]]
 
@@ -46,14 +46,14 @@
 5. Для теста запускайте `test_movement.tscn` или текущую рабочую сцену
 
 ## 6. Ежедневная работа
-- Открывайте [[Daily_Notes_Template]] — ведите журнал сессии
-- Проверяйте [[Bug_Tracker]] — добавляйте найденные баги
+- Открывайте Daily Notes — ведите журнал сессии
+- Проверяйте Bug Tracker — добавляйте найденные баги
 - Следите за [[Master_Plan_v2]] — понимайте, где вы находитесь
 - Обновляйте [[Asset_Inventory]] при получении новых артов
 
 ## 7. Если что-то сломалось
 - Проверьте [[Risk_Register]] — возможно, риск уже известен
-- Запишите в [[Bug_Tracker]]
+- Запишите в Bug Tracker
 - Обратитесь к Kimi с контекстом из [[New_Chat_Onboarding]]
 - При архитектурном тупике — Kimi может эскалировать на Qwen 3.7 Max
 

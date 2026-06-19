@@ -34,4 +34,4 @@
 ## Связанные файлы
 - [[New_Chat_Onboarding]] — общий онбординг
 - [[Code_Review_Template]] — формат ревью
-- [[Godot_Cheat_Sheet]] — быстрые ссылки API
+- Godot Cheat Sheet — быстрые ссылки API

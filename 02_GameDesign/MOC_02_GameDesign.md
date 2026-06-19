@@ -5,7 +5,7 @@ Complete game design documentation for *Spark of Defiance*.
 ## Core Documents
 
 - [[GDD_Core]] — Genre, camera, resolution, target FPS, scope
-- [[Audio_Design]] — Dynamic music, ambient, SFX, placeholder policy
+- Audio Design (see [[Sound_Design_Brief]]) — Dynamic music, ambient, SFX, placeholder policy
 
 ## Mechanics
 

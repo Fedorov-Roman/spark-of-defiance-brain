@@ -94,4 +94,4 @@ If stuck 3 iterations → Architect activates Reserve. Builder never calls Reser
 - [[MOC_00_Meta]]
 - [[Start_Here]]
 - [[Index]]
-- [[Team_Charter_v2]]
+- [[Team_Charter]]

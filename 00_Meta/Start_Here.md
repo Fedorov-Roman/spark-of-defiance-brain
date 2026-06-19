@@ -15,8 +15,8 @@
 | Onboard a new AI (Architect/Builder) | [[New_Chat_Onboarding]] |
 | Onboard a new Builder | [[Builder_Onboarding]] |
 | Generate art in Leonardo.Ai | [[Leonardo_AI_Pipeline]] |
-| See current CP status | [[CP_Tracker_MOC]] |
-| Browse the Godot project | [[06_Project]] |
+| See current CP status | [[MOC_CP_Tracker]] |
+| Browse the Godot project | [[MOC]] |
 | Read how to use this vault | [[How_to_Use_This_Brain]] |
 
 ---
@@ -61,7 +61,7 @@
 - [[MOC_03_Architecture]]
 - [[MOC_04_Assets]]
 - [[MOC_05_Production]]
-- [[MOC_06_Project]]
+- [[MOC]]
 - [[MOC_99_Templates]]
 
 ---

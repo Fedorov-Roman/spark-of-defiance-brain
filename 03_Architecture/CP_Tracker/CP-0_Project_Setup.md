@@ -12,9 +12,9 @@ Create runnable Godot 4.6.3 project with correct structure, InputMap, placeholde
 ## Checklist for Roman
 - [ ] Open Godot 4.6.3 → New Project → `spark-of-defiance`
 - [ ] Set viewport: 640×360, stretch canvas_items, filter NEAREST
-- [ ] Create folder structure (see [[Project_Structure_v2]])
+- [ ] Create folder structure (see [[Project_Structure]])
 - [ ] Set collision layers (1-12) with names
-- [ ] Create InputMap actions (see [[Input_Map]])
+- [ ] Create InputMap actions (see Input Map (see project.godot))
 - [ ] Create 9 AutoLoad scripts (empty, extends Node, class_name)
 - [ ] Placeholder sprites: 32×32 colored rects (player=green, enemy=red, npc=blue, wall=gray)
 - [ ] `.gitignore` committed
@@ -52,7 +52,7 @@ Create runnable Godot 4.6.3 project with correct structure, InputMap, placeholde
 
 ## Связанные разделы
 
-- [[CP_Index]]
+- [[MOC_CP_Tracker]]
 - [[MOC_05_Production]]
 - [[Master_Plan_v2]]
 - [[CP_Template]]

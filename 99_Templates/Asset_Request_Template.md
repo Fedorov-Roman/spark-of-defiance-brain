@@ -27,4 +27,4 @@ blurry, low quality, deformed hands, extra fingers, watermark, text, logo, cropp
 
 - [[MOC_99_Templates]]
 - [[Asset_Inventory]]
-- [[Leonardo_AI_Pipeline_v2]]
+- [[Leonardo_AI_Pipeline]]
