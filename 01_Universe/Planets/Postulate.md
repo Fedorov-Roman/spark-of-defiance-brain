@@ -24,3 +24,12 @@ None visible. Subsurface: extremophile algae in canyon seeps.
 1. Red Dunes (surface)
 2. Polar Oasis (SUN outpost zone)
 3. Deep Labs (subsurface ruins)
+
+---
+
+## Связанные разделы
+
+- [[Planets_Index]]
+- [[MOC_01_Universe]]
+- [[Lore_Bible]]
+- [[Zones_Index]]

@@ -5,3 +5,12 @@
 
 ## In Game
 Cameo: Liara (Medic NPC) worked at Kios research station before joining UFO.
+
+---
+
+## Связанные разделы
+
+- [[Planets_Index]]
+- [[MOC_01_Universe]]
+- [[Lore_Bible]]
+- [[Zones_Index]]

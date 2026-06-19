@@ -19,3 +19,12 @@
 ## Drops
 - 50% chance: Data Drive
 - 50% chance: Smoke bomb
+
+---
+
+## Связанные разделы
+
+- [[Enemies_Index]]
+- [[MOC_02_GameDesign]]
+- [[Stealth_System_v2]]
+- [[Combat_and_Weapons_v2]]

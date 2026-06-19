@@ -29,3 +29,12 @@
 - Noise ripples: expanding circles from Kai's feet (white in stealth, red if heard).
 - Grapple line: dashed cyan.
 - Sniper line: dashed red while aiming.
+
+---
+
+## Связанные разделы
+
+- [[MOC_02_GameDesign]]
+- [[GDD_Core_v2]]
+- [[Art_Conventions]]
+- [[Audio_Design_v2]]

@@ -18,3 +18,12 @@ With Time Dagger: weak points glow cyan, attacks slowed, damageable.
 
 ## Visual
 - Humanoid, 4 tiles tall. Exposed muscles + metal endoskeleton. Glowing cyan veins. Faceless.
+
+---
+
+## Связанные разделы
+
+- [[Bosses_Index]]
+- [[MOC_02_GameDesign]]
+- [[Zones_Index]]
+- [[Combat_and_Weapons_v2]]

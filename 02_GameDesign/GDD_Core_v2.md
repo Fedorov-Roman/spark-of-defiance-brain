@@ -8,7 +8,7 @@
 - **Inspirations:** Mark of the Ninja (stealth), Celeste (movement), Hollow Knight (exploration)
 
 ## Technical Base
-- **Base Resolution:** 640×360 (20×11 tiles of 32×32)
+- **Base Resolution:** 640×360 (20×11 tiles of [[Art_Conventions|32×32]])
 - **Pixel Scale:** x2 (1280×720) or x3 (1920×1080)
 - **Tile Size:** 32×32
 - **Viewport:** `canvas_items` stretch, `NEAREST` filter
@@ -39,3 +39,12 @@ Destroy SUN reactor on Postulate after freeing all prisoners and collecting enou
 
 ## Loss Condition
 HP reaches 0 (respawn at checkpoint). No permadeath.
+
+---
+
+## Связанные разделы
+
+- [[MOC_02_GameDesign]]
+- [[Mechanics_Index]]
+- [[Answers_Bible]]
+- [[Art_Conventions]]

@@ -41,3 +41,12 @@ Create runnable Godot 4.6.3 project with correct structure, InputMap, placeholde
 - Do NOT forget to add AutoLoad in Project Settings.
 - Do NOT set `Engine.time_scale` anywhere yet.
 - Do NOT create complex scenes — placeholders only.
+
+---
+
+## Связанные разделы
+
+- [[CP_Index]]
+- [[MOC_05_Production]]
+- [[Master_Plan_v2]]
+- [[CP_Template]]

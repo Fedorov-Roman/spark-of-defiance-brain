@@ -25,3 +25,12 @@ Silent protagonist. Expresses through actions, not words. Determined, protective
 
 ## Cameo in Lore
 Audio logs in Data Drives reference Kai as "the spark that survived the storm."
+
+---
+
+## Связанные разделы
+
+- [[Characters_Index]]
+- [[MOC_01_Universe]]
+- [[Factions_Index]]
+- [[Planets_Index]]

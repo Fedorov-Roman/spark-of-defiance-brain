@@ -21,3 +21,12 @@
 
 ## On Postulate
 Occupies polar regions. Runs secret labs in ancient ruins. Uses local silicon fauna for bio-weapon research. Dismisses native population as "non-citizens."
+
+---
+
+## Связанные разделы
+
+- [[Factions_Index]]
+- [[MOC_01_Universe]]
+- [[Lore_Bible]]
+- [[Planets_Index]]

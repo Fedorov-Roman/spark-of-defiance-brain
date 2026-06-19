@@ -14,3 +14,12 @@ Crashed ship hangar. 50×30 tiles. Elevated platforms.
 
 ## Visual
 - 4-legged mech, 10 tiles tall. Solar panel "mane". Yellow SUN markings. Glowing red core.
+
+---
+
+## Связанные разделы
+
+- [[Bosses_Index]]
+- [[MOC_02_GameDesign]]
+- [[Zones_Index]]
+- [[Combat_and_Weapons_v2]]

@@ -1,16 +1,15 @@
 # Code Review: CP-N
-
-## Critical Problems (KP)
+## Critical (KP)
 | ID | File | Problem | Fix |
-|----|------|---------|-----|
-| KP-1 | `path` | ... | ... |
-
 ## Non-Critical (NC)
 | ID | File | Note | Recommendation |
-|----|------|------|------------------|
-| NC-1 | `path` | ... | ... |
-
 ## Verdict
-- [ ] Accept → CP-N+1
-- [ ] Accept with fixes → Builder fixes, re-review
-- [ ] Reject → major rework
+- [ ] Accept / Fix / Reject
+
+---
+
+## Связанные разделы
+
+- [[MOC_99_Templates]]
+- [[Bug_Tracker]]
+- [[CP_Index]]

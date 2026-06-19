@@ -11,3 +11,12 @@ CP-3..10 are architecture-heavy and live with design docs.
 
 ## For Builder
 Always check **both** folders for the latest TZ.
+
+---
+
+## Связанные разделы
+
+- [[CP_Index]]
+- [[MOC_05_Production]]
+- [[Master_Plan_v2]]
+- [[CP_Template]]

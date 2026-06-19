@@ -7,3 +7,11 @@ Per CP, Roman verifies:
 - [ ] CP checklist from TZ fully passed
 - [ ] Code review by Architect (KP/NC table)
 - [ ] Committed to Git with message "CP-N: name"
+
+---
+
+## Связанные разделы
+
+- [[MOC_05_Production]]
+- [[Master_Plan_v2]]
+- [[Bug_Tracker]]

@@ -27,3 +27,12 @@ Underground alien ruins. Gravity anomalies. Bioluminescent fungi. SUN experiment
 - 5 Data Drives
 - 1 secret ending lore (not alternate ending, just deep lore)
 - 3 landing pads
+
+---
+
+## Связанные разделы
+
+- [[Zones_Index]]
+- [[MOC_02_GameDesign]]
+- [[Enemies_Index]]
+- [[Bosses_Index]]

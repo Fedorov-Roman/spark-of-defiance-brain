@@ -38,3 +38,12 @@
 - Radius: 100 px. Duration: 8 sec.
 - Blocks all vision cones and RayCasts.
 - Kai fully hidden inside.
+
+---
+
+## Связанные разделы
+
+- [[Mechanics_Index]]
+- [[MOC_02_GameDesign]]
+- [[GDD_Core_v2]]
+- [[Input_Map]]

@@ -1,6 +1,16 @@
 # Zones Index
-| Zone | File | Theme | Boss | Mechanics Introduced |
-|------|------|-------|------|------------------------|
-| Zone 1: Red Dunes | [[02_GameDesign/Level_Design/Zone_1_Red_Dunes_v2]] | Desert | Sand Leviathan | Wall-slide, stealth, sniper, decoy |
-| Zone 2: Polar Oasis | [[02_GameDesign/Level_Design/Zone_2_Polar_Oasis_v2]] | Frozen | Helios-7 | Grapple, laser grids, ice |
-| Zone 3: Deep Labs | [[02_GameDesign/Level_Design/Zone_3_Deep_Labs_v2]] | Ruins | Biomechanoid | Gravity anomalies, time doors |
+
+Все игровые зоны.
+
+## Зоны
+- [[Zone_1_Red_Dunes_v2]] — Красные Дюны. Пыльные бури, песчаные руины, дроны, Левиафан.
+- [[Zone_2_Polar_Oasis_v2]] — Полярный Оазис. Лазерные сетки, лёд, вертикальность, Гелиос-7.
+- [[Zone_3_Deep_Labs_v2]] — Глубинные Лаборатории. Гравитационные аномалии, руины, Биомеханоид.
+
+## Хаб
+- [[Progression_and_Hub_v2]] — База «Искра». Динамическое изменение по мере спасения NPC.
+
+## Связанные разделы
+- [[Bosses_Index]] — боссы зон
+- [[Enemies_Index]] — враги зон
+- [[MOC_02_GameDesign]] — вернуться к разделу

@@ -33,7 +33,16 @@
 - **Carry:** Infinite (1 active at a time; old one vanishes on new throw).
 
 ## Health
-- **Max:** 3 hearts (6 HP if half-heart granularity, but use whole hearts).
+- **Max:** 3 hearts (6 [[GDD_Core_v2|HP]] if half-heart granularity, but use whole hearts).
 - **Medkit:** +1 heart. Max 3.
 - **Damage sources:** Enemy melee (1 heart), projectiles (1 heart), traps (1 heart), fall (instant death if > 5 tiles).
 - **Invulnerability:** 1.0 sec after hit (blink).
+
+---
+
+## Связанные разделы
+
+- [[Mechanics_Index]]
+- [[MOC_02_GameDesign]]
+- [[GDD_Core_v2]]
+- [[Input_Map]]

@@ -1,19 +1,45 @@
 class_name SaveManager extends Node
-const PATH: String = "user://save.json"; const VERSION: int = 1
+
+const SAVE_PATH: String = "user://save.json"
+const SAVE_VERSION: int = 1
+
 func save_game() -> void:
-    var d := {"version": VERSION, "timestamp": Time.get_unix_time_from_system(), "progression": ProgressionManager.serialize(), "player": _get_player(), "zones": _get_zones()}
-    var f := FileAccess.open(PATH, FileAccess.WRITE)
-    if f: f.store_string(JSON.stringify(d)); f.close()
+    var data: Dictionary = {
+        "version": SAVE_VERSION,
+        "game_state": _serialize_game_state(),
+        "progression": _serialize_progression(),
+        "zone_states": _serialize_zones()
+    }
+    var json: String = JSON.stringify(data, "\t")
+    var file := FileAccess.open(SAVE_PATH, FileAccess.WRITE)
+    if file:
+        file.store_string(json)
+        file.close()
+
 func load_game() -> bool:
-    if not FileAccess.file_exists(PATH): return false
-    var f := FileAccess.open(PATH, FileAccess.READ)
-    if not f: return false
-    var d := JSON.parse_string(f.get_as_string()); f.close()
-    if d == null or d.get("version", 0) != VERSION: return false
-    ProgressionManager.deserialize(d.get("progression", {}))
-    _set_player(d.get("player", {})); _set_zones(d.get("zones", {}))
-    return true
-func _get_player() -> Dictionary: var p := get_tree().get_first_node_in_group("player"); return p.serialize() if p else {}
-func _set_player(d: Dictionary) -> void: var p := get_tree().get_first_node_in_group("player"); if p: p.deserialize(d)
-func _get_zones() -> Dictionary: return {}
-func _set_zones(d: Dictionary) -> void: pass
+    if not FileAccess.file_exists(SAVE_PATH):
+        return false
+    var file := FileAccess.open(SAVE_PATH, FileAccess.READ)
+    var json: String = file.get_as_text()
+    file.close()
+    var data: Variant = JSON.parse_string(json)
+    if data is Dictionary:
+        _deserialize(data)
+        return true
+    return false
+
+func _serialize_game_state() -> Dictionary:
+    # TODO Builder: вернуть Dictionary с player_hp, player_ammo, player_energy, current_zone, checkpoint_position
+    return {}
+
+func _serialize_progression() -> Dictionary:
+    # TODO Builder: вернуть Dictionary с rescued_* флагами и has_* способностями
+    return {}
+
+func _serialize_zones() -> Dictionary:
+    # TODO Builder: для каждой зоны: открытые двери (Vector2i координаты), собранные предметы (ID), убитые враги (ID)
+    return {}
+
+func _deserialize(data: Dictionary) -> void:
+    # TODO Builder: при load_game вызвать GameState.reset(), затем применить loaded data. Для зон: маркировать двери и предметы
+    pass

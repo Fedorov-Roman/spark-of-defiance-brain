@@ -34,3 +34,12 @@ enum State { IDLE, SUSPICIOUS, ALERT }
 - Do NOT use `Area2D` overlap alone for detection — check line of sight.
 - Do NOT forget to cull vision cones off-screen.
 - Alert timer must be real-time (not affected by Time Dagger).
+
+---
+
+## Связанные разделы
+
+- [[CP_Index]]
+- [[MOC_05_Production]]
+- [[Master_Plan_v2]]
+- [[CP_Template]]

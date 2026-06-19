@@ -8,3 +8,11 @@ Key principles:
 - **Resource-based config:** Enemy stats, weapon data, dialogue lines stored in `.tres` or `.json` under `resources/`.
 - **Naming:** snake_case for files, PascalCase for classes, UPPER_CASE for constants.
 - **Git:** `.gitignore` excludes `.godot/`, `*.tmp`, `export_presets.cfg`, `user://`.
+
+---
+
+## Связанные разделы
+
+- [[MOC_03_Architecture]]
+- [[Godot_Architecture_v2]]
+- [[MOC_06_Project]]

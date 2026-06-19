@@ -1,8 +1,19 @@
 # Entities Index
-| Entity | Scene | Script | Components | Notes |
-|--------|-------|--------|------------|-------|
-| Player | `entities/player/player.tscn` | `player.gd` | Health, Hitbox, Hurtbox | CharacterBody2D, state machine |
-| Drone Eye | `entities/enemies/drone_eye.tscn` | `drone_eye.gd` | Health, VisionCone | Flying |
-| Guard SUN | `entities/enemies/guard_sun.tscn` | `guard_sun.gd` | Health, VisionCone, NoiseHearing | Ground patrol |
-| Silicon Beast | `entities/enemies/silicon_beast.tscn` | `silicon_beast.gd` | Health, NoiseHearing | Blind |
-| Elite Sniper | `entities/enemies/elite_sniper.tscn` | `elite_sniper.gd` | Health, VisionCone | Static |
+
+Все игровые сущности (сцены) в проекте.
+
+## Игрок
+- [[player.gd]] / [[player.tscn]] — Кай (CharacterBody2D)
+  - Компоненты: [[HealthComponent]], [[HitboxComponent]], [[HurtboxComponent]]
+
+## Враги
+- [[enemy_base.gd]] / [[enemy_base.tscn]] — базовый враг (State Machine)
+  - Наследники: DroneEye, GuardSUN, SiliconBeast, EliteSniper (описаны в [[Enemies_Index]])
+
+## NPC Хаба
+- Описаны в [[Progression_and_Hub_v2]]
+
+## Связанные разделы
+- [[MOC_03_Architecture]] — вернуться к разделу
+- [[MOC_06_Project]] — кодовая база
+- [[Component_Pattern]] — компонентная архитектура

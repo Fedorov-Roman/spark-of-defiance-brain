@@ -34,3 +34,12 @@ Hybrid time dilation: world slows to 30%, Kai moves at 100%. Full-screen blue sh
 ## Boss Interaction (Biomechanoid)
 - Without Time Dagger: boss invincible (attacks pass through).
 - With Time Dagger: boss vulnerable, attacks slowed, weak points glow.
+
+---
+
+## Связанные разделы
+
+- [[Mechanics_Index]]
+- [[MOC_02_GameDesign]]
+- [[GDD_Core_v2]]
+- [[Input_Map]]

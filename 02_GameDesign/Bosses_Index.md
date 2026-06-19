@@ -1,6 +1,14 @@
 # Bosses Index
-| Boss | File | Zone | Mechanic |
-|------|------|------|----------|
-| Sand Leviathan | [[02_GameDesign/Bosses/Sand_Leviathan_v2]] | Z1 | Steam valves |
-| Helios-7 | [[02_GameDesign/Bosses/Helios_7_v2]] | Z2 | Leg paralysis |
-| Biomechanoid | [[02_GameDesign/Bosses/Biomechanoid_v2]] | Z3 | Time Dagger required |
+
+Все боссы в игре.
+
+## Боссы
+- [[Sand_Leviathan_v2]] — Песчаный Левиафан (Зона 1). Ослепление через паровые клапаны, заманивание в зыбучий песок.
+- [[Helios_7_v2]] — шагающий мех (Зона 2). Паралич ног снайперкой, обрушение моста.
+- [[Biomechanoid_v2]] — экспериментальный биомеханоид (Зона 3). Неуязвим без замедления времени, фазы уязвимости.
+
+## Связанные разделы
+- [[Zones_Index]] — зоны, где обитают боссы
+- [[Enemies_Index]] — обычные враги
+- [[Combat_and_Weapons_v2]] — тактика боя
+- [[MOC_02_GameDesign]] — вернуться к разделу

@@ -12,3 +12,12 @@ Does not take sides. Sells navigation to all factions. Without UN, interstellar 
 
 ## On Postulate
 One hub in orbit. SUN has embargoed Postulate's civilian access; Kai cannot leave planet without UN clearance (plot reason for grounded Vspyshka until Kess rescued).
+
+---
+
+## Связанные разделы
+
+- [[Factions_Index]]
+- [[MOC_01_Universe]]
+- [[Lore_Bible]]
+- [[Planets_Index]]

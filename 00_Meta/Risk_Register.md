@@ -17,3 +17,12 @@
 | R13 | Silent protagonist = weak narrative | Low | Medium | Strong environmental storytelling; audio logs; NPC monologues |
 | R14 | Metroidvania backtracking boring | Medium | Medium | Fast travel early; new enemy types on return; shortcuts |
 | R15 | Bosses too hard/easy | Medium | Medium | Checkpoint before each; observe Roman's playtest; tweak HP/damage |
+
+---
+
+## Связанные разделы
+
+- [[MOC_00_Meta]]
+- [[Master_Plan_v2]]
+- [[Decision_Log]]
+- [[Bug_Tracker]]

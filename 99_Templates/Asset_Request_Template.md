@@ -20,3 +20,11 @@ blurry, low quality, deformed hands, extra fingers, watermark, text, logo, cropp
 
 ### Estimated Tokens
 [~8 / ~16]
+
+---
+
+## Связанные разделы
+
+- [[MOC_99_Templates]]
+- [[Asset_Inventory]]
+- [[Leonardo_AI_Pipeline_v2]]

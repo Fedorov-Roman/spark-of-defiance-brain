@@ -16,3 +16,12 @@ Circular sand pit, 40×40 tiles. 4 steam valves on walls.
 ## Visual
 - Massive segmented worm, metallic armor plates, multiple blue eyes, rust-orange color.
 - Scale: Kai is 1/20th its size.
+
+---
+
+## Связанные разделы
+
+- [[Bosses_Index]]
+- [[MOC_02_GameDesign]]
+- [[Zones_Index]]
+- [[Combat_and_Weapons_v2]]

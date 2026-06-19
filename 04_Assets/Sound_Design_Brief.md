@@ -1,37 +1,48 @@
 # Sound Design Brief
 
-## Music
-- Dynamic states: Ambient → Tension → Combat → Stealth → Boss
-- Crossfade: 2.0 sec
-- Sources: Freesound, itch.io, self-composed
+Звуковое оформление «Spark of Defiance».
 
-## SFX List
-| Event | File | Source |
-|-------|------|--------|
-| Footsteps (run) | `sfx/footstep_run.wav` | Freesound |
-| Footsteps (crouch) | `sfx/footstep_crouch.wav` | Freesound |
-| Jump | `sfx/jump.wav` | Freesound |
-| Land | `sfx/land.wav` | Freesound |
-| Dash | `sfx/dash.wav` | Freesound |
-| Roll | `sfx/roll.wav` | Freesound |
-| Knife kill | `sfx/knife_kill.wav` | Freesound |
-| Sniper fire | `sfx/sniper_fire.wav` | Freesound |
-| Sniper hit | `sfx/sniper_hit.wav` | Freesound |
-| EMP | `sfx/emp.wav` | Freesound |
-| Smoke | `sfx/smoke.wav` | Freesound |
-| Decoy | `sfx/decoy.wav` | Freesound |
-| Time Dagger | `sfx/time_dagger.wav` | Freesound |
-| Enemy alert | `sfx/alert.wav` | Freesound |
-| Damage | `sfx/damage.wav` | Freesound |
-| Death | `sfx/death.wav` | Freesound |
+## Источники
+- **Freesound.org** — SFX, амбиенты (Creative Commons)
+- **itch.io** — бесплатные музыкальные паки (поиск: «free sci-fi music», «free pixel art sfx»)
+- **OpenGameArt.org** — резерв
 
-## Ambient (per zone)
-- Zone 1: wind, sand, distant thunder, metal creak
-- Zone 2: ice crackle, aurora hum, reactor drone
-- Zone 3: drip, bioluminescent buzz, machinery, low pulse
+## Динамические состояния музыки
+| Состояние | Описание | Требования |
+|-----------|----------|------------|
+| Stealth | Тихая, напряжённая | Низкий темп, пульс |
+| Suspicious | Подозрение врагов | Нарастание, диссонанс |
+| Alert | Тревога, бой | Высокий темп, удары |
+| Exploration | Исследование | Нейтральная, атмосферная |
+| Boss | Босс-файт | Эпичная, агрессивная |
 
-## Implementation
-- `AudioStreamPlayer` for music (2 for crossfade)
-- `AudioStreamPlayer2D` for positional SFX
-- `AudioStreamPlayer` for UI/HUD
-- Bus layout: Master → Music, SFX, Ambient, UI
+## SFX-лист (обязательные)
+- Шаги (бег, ходьба, приседание) — разные по поверхности
+- Прыжок / приземление
+- Wall-slide (скрежет)
+- Dash (всплеск воздуха)
+- Roll (перекат)
+- Stealth kill (тихий удар)
+- Выстрел снайперки (глушённый)
+- Паралич (электрический разряд)
+- ЭМИ-граната (глухой удар)
+- Приманка (стук камня)
+- Дымовая шашка (шипение)
+- Крюк-кошка (выстрел + цепь)
+- Time Dagger (замедление — реверс/эхо)
+- Alarm / тревога
+- Двери (открытие/закрытие)
+- Чекпоинт (сохранение)
+- Подбор предмета
+- Урон Кая (вздох/удар)
+- Смерть Кая (фейд)
+
+## Амбиенты по зонам
+- **Зона 1:** ветер, песок, далёкие механические звуки
+- **Зона 2:** ледяной ветер, треск льда, жужжание лазеров
+- **Зона 3:** гул генераторов, капли, эхо в руинах
+- **Хаб:** тишина, редкие звуки базы, радиопомехи
+
+## Связанные разделы
+- [[Audio_Design_v2]] — полный аудио-дизайн
+- [[MOC_04_Assets]] — вернуться к разделу

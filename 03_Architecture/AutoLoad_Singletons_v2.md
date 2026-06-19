@@ -1,6 +1,6 @@
 # AutoLoad Singletons v2
 
-## 1. GameState
+## 1. [[game_state.gd|GameState]]
 ```gdscript
 extends Node
 var current_zone: String = "hub"
@@ -10,13 +10,13 @@ func change_zone(path: String, spawn_id: String) -> void:
     LevelManager.transition_to(path, spawn_id)
 ```
 
-## 2. SaveManager
+## 2. [[save_manager.gd|SaveManager]]
 ```gdscript
 extends Node
 const SAVE_PATH: String = "user://save.json"
 func save_game() -> void:
     var data := {
-        "progression": ProgressionManager.serialize(),
+        "progression": [[progression_manager.gd|ProgressionManager]].serialize(),
         "player": PlayerStats.serialize(),
         "zones": ZoneStates.serialize(),
         "timestamp": Time.get_unix_time_from_system()
@@ -83,7 +83,7 @@ func set_music_state(state: MusicState) -> void:
     # crossfade logic here
 ```
 
-## 7. TimeManager
+## 7. [[time_manager.gd|TimeManager]]
 ```gdscript
 extends Node
 signal time_dagger_started(duration: float)
@@ -123,3 +123,12 @@ func transition_to(path: String, spawn_id: String) -> void:
     # spawn player at spawn_id
     emit_signal("zone_loaded", path)
 ```
+
+---
+
+## Связанные разделы
+
+- [[MOC_03_Architecture]]
+- [[AutoLoad_Index]]
+- [[Save_System_v2]]
+- [[Godot_Architecture_v2]]

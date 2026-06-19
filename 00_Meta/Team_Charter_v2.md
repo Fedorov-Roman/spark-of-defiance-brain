@@ -22,3 +22,11 @@
 - Builder stuck (3 review iterations) → Architect assigns Reserve Builder.
 - Architect stuck on pattern choice → Reserve Architect (Qwen) consults.
 - API unknown / optimization issue → Reserve Researcher (Flash) investigates.
+
+---
+
+## Связанные разделы
+
+- [[MOC_00_Meta]]
+- [[Project_Manifest_v2]]
+- [[Kimi_Self_Expansion_Protocol]]

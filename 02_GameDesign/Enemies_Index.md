@@ -1,7 +1,15 @@
 # Enemies Index
-| Enemy | File | Zone | HP | Behavior |
-|-------|------|------|-----|----------|
-| Drone Eye | [[02_GameDesign/Enemies/Drone_Eye_v2]] | All | 1 | Flying patrol |
-| Guard SUN | [[02_GameDesign/Enemies/Guard_SUN_v2]] | All | 2 | Ground patrol |
-| Silicon Beast | [[02_GameDesign/Enemies/Silicon_Beast_v2]] | Z1 | 3 | Sound-reactive |
-| Elite Sniper | [[02_GameDesign/Enemies/Elite_Sniper_v2]] | Z2 | 2 | Static tower |
+
+Все враги в игре.
+
+## Враги
+- [[Drone_Eye_v2]] — летающий дрон-наблюдатель, конус зрения, лазер
+- [[Guard_SUN_v2]] — солнечный страж, патруль, ближний бой
+- [[Silicon_Beast_v2]] — кремневая тварь, слепая, реагирует на звук
+- [[Elite_Sniper_v2]] — элитный снайпер SUN, статичный, дальний бой
+
+## Связанные разделы
+- [[Bosses_Index]] — боссы
+- [[Stealth_System_v2]] — как враги обнаруживают Кая
+- [[Combat_and_Weapons_v2]] — как Кай нейтрализует врагов
+- [[MOC_02_GameDesign]] — вернуться к разделу

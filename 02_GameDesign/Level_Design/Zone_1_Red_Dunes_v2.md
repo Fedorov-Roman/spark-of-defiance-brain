@@ -33,3 +33,12 @@ Endless rust-red sand dunes. Ancient metal ruins. Two small moons. Dust storms.
 - **Dust storms:** Random, 40–60 sec. Visibility 50%. Footstep noise masked. Both sides affected.
 - **Ruins:** Cover, wall-run surfaces, hidden vents.
 - **Sandfalls:** One-way drops (like Hollow Knight).
+
+---
+
+## Связанные разделы
+
+- [[Zones_Index]]
+- [[MOC_02_GameDesign]]
+- [[Enemies_Index]]
+- [[Bosses_Index]]

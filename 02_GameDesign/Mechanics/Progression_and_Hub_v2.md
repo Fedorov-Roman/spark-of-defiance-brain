@@ -1,6 +1,6 @@
 # Progression & Hub v2
 
-## NPC Masters (6 total)
+## [[Progression_and_Hub_v2|NPC]] Masters (6 total)
 | NPC | Zone | Rescue Condition | Unlocks |
 |-----|------|------------------|---------|
 | **Uno** (Engineer) | Zone 1 | Reach workshop | Gadget shop (EMP, Smoke, Batteries) |
@@ -35,3 +35,12 @@
 - **Grapple points:** High ledges (need Grapple — found as item in Zone 1).
 - **EMP doors:** Electronic locks (need EMP or switch).
 - **Time doors:** Only visible during Time Dagger slow.
+
+---
+
+## Связанные разделы
+
+- [[Mechanics_Index]]
+- [[MOC_02_GameDesign]]
+- [[GDD_Core_v2]]
+- [[Input_Map]]

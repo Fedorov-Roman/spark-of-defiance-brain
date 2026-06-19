@@ -76,3 +76,12 @@ Negative: text, logo, watermark, UI, cartoon, anime, cute, small, blurry, 3D ren
 - True pixel-art (limited palette) → Aseprite / manual
 - Fonts → Use M5x7 or Pixel Operator
 - Sound → Freesound / itch.io
+
+---
+
+## Связанные разделы
+
+- [[MOC_04_Assets]]
+- [[Asset_Inventory]]
+- [[Art_Conventions]]
+- [[Asset_Request_Template]]

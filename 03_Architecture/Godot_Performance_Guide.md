@@ -7,3 +7,11 @@
 - Avoid `Engine.time_scale` — use custom delta group.
 - Signals: disconnect in `_exit_tree` to prevent leaks.
 - JSON: parse once, cache result. Don't parse in `_process`.
+
+---
+
+## Связанные разделы
+
+- [[MOC_03_Architecture]]
+- [[Godot_Architecture_v2]]
+- [[MOC_06_Project]]

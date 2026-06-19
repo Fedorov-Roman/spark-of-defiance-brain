@@ -10,3 +10,12 @@
 
 ## Status
 Hated by both SUN and UFO. Marginal. Some presence on Postulate among displaced colonists. Mentioned in lore as fringe radicals.
+
+---
+
+## Связанные разделы
+
+- [[Factions_Index]]
+- [[MOC_01_Universe]]
+- [[Lore_Bible]]
+- [[Planets_Index]]

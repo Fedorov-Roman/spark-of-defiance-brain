@@ -12,3 +12,12 @@
 - [ ] Code review
 - [ ] Roman playtest
 - [ ] Accepted
+
+---
+
+## Связанные разделы
+
+- [[CP_Index]]
+- [[MOC_05_Production]]
+- [[Master_Plan_v2]]
+- [[CP_Template]]

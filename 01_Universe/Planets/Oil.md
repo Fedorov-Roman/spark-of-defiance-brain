@@ -4,3 +4,12 @@
 
 ## In Game
 Cameo: Source of manufactured goods on Postulate. SUN blockade mentioned in Data Drives.
+
+---
+
+## Связанные разделы
+
+- [[Planets_Index]]
+- [[MOC_01_Universe]]
+- [[Lore_Bible]]
+- [[Zones_Index]]

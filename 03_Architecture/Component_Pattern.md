@@ -15,3 +15,11 @@ func heal(amount: int) -> void:
 func serialize() -> Dictionary: return {"current": current, "max": max_hp}
 func deserialize(d: Dictionary) -> void: current = d.get("current", max_hp); max_hp = d.get("max", 3)
 ```
+
+---
+
+## Связанные разделы
+
+- [[MOC_03_Architecture]]
+- [[Entities_Index]]
+- [[Godot_Architecture_v2]]

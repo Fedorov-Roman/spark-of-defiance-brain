@@ -18,3 +18,12 @@
 ## Drops
 - 20% chance: Ammo (+1 sniper round)
 - 30% chance: Medkit
+
+---
+
+## Связанные разделы
+
+- [[Enemies_Index]]
+- [[MOC_02_GameDesign]]
+- [[Stealth_System_v2]]
+- [[Combat_and_Weapons_v2]]

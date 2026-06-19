@@ -15,3 +15,12 @@
 ## Visual
 - Humanoid in ghillie-like camo, long rifle, blue scope glow.
 - Laser sight visible as thin red line.
+
+---
+
+## Связанные разделы
+
+- [[Enemies_Index]]
+- [[MOC_02_GameDesign]]
+- [[Stealth_System_v2]]
+- [[Combat_and_Weapons_v2]]

@@ -1,38 +1,54 @@
 # Kimi Self-Expansion Protocol
 
-## Rule 1: Auto-log decisions
-Any architectural decision differing from current brain:
-- Add entry to [[00_Meta/Decision_Log]]
-- Update affected files with wiki-links
+Правила для Kimi (Architect) по автоматическому расширению и поддержанию мозга в актуальном состоянии.
 
-## Rule 2: Auto-update CP
-On CP completion:
-- Update [[05_Production/CP_Index]] (status: Done)
-- Update [[03_Architecture/CP_Index]]
-- Create/update next CP with dependencies
+## Правило 1: Автоматическое логирование решений
+При любом архитектурном решении, которое отличается от текущего мозга:
+- Добавить запись в [[Decision_Log]]
+- Обновить affected files wiki-ссылками
+- Указать дату, контекст и обоснование
 
-## Rule 3: Auto-document mechanics
-If TZ introduces new mechanic/constant:
-- Update file in [[02_GameDesign/Mechanics]]
-- Update [[02_GameDesign/Mechanics_Index]]
+## Правило 2: Автоматическое обновление CP
+При завершении CP:
+- Обновить [[Master_Plan_v2]] (статус CP: Done)
+- Обновить [[CP_Index]] (статус, дата завершения)
+- Создать/обновить следующий CP с зависимостями
+- Обновить [[MOC_05_Production]] если добавлены новые CP
 
-## Rule 4: Auto-document code
-If Builder creates new class/scene:
-- Add to [[03_Architecture/Entities_Index]] or [[03_Architecture/AutoLoad_Index]]
-- Update [[03_Architecture/Godot_Architecture_v2]] if structure changes
+## Правило 3: Автоматическое документирование механик
+Если в ТЗ появляется новая механика или константа:
+- Обновить соответствующий файл в [[02_GameDesign/Mechanics]]
+- Обновить [[Mechanics_Index]]
+- Сверить с [[Answers_Bible]] — константы должны совпадать
 
-## Rule 5: Auto-log risks
-If new risk discovered:
-- Add to [[00_Meta/Risk_Register]]
-- Specify mitigation
+## Правило 4: Автоматическое документирование кода
+Если Builder создаёт новый класс/сцену:
+- Добавить каркас в [[AutoLoad_Index]] или [[Entities_Index]]
+- Обновить [[Godot_Architecture_v2]] если меняется структура
+- Обновить [[MOC_06_Project]] если появляется новая папка
 
-## Rule 6: Auto-update Asset Inventory
-If art ordered in Leonardo:
-- Add entry to [[04_Assets/Asset_Inventory]]
-- Specify: prompt, model, tokens, status, path
+## Правило 5: Автоматическое логирование рисков
+Если обнаружен новый риск:
+- Добавить в [[Risk_Register]]
+- Указать митигацию и ответственного
+- Обновить [[Master_Plan_v2]] если риск влияет на критический путь
 
-## Rule 7: Per-session audit
-At end of each session:
-- Verify all new files have wiki-links (min 3)
-- Check for orphan files (no links)
-- Update [[Index]] if new sections added
+## Правило 6: Автоматическое обновление Asset Inventory
+Если заказан арт в Leonardo:
+- Добавить запись в [[Asset_Inventory]]
+- Указать: промпт, модель, токены, статус, путь в проекте
+- Обновить [[Leonardo_AI_Pipeline_v2]] если изменился процесс
+
+## Правило 7: Ежесессионный аудит
+В конце каждой сессии:
+- Проверить, все ли новые файлы имеют wiki-ссылки (минимум 3)
+- Проверить, нет ли orphan files (файлов без ссылок)
+- Проверить, нет ли dead links (битых [[...]] ссылок)
+- Обновить [[Index]] если добавлены новые разделы
+- Обновить соответствующие MOC-файлы
+
+## Правило 8: Синхронизация с Answers Bible
+При любых изменениях требований:
+- Обновить [[Answers_Bible]]
+- Проверить все affected файлы на консистентность
+- Указать версию изменения (дата + описание)

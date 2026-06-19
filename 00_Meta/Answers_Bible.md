@@ -172,3 +172,12 @@
 | L6 | Documentation? | Brief comments in code + GDD |
 | L7 | Min spec? | 60 FPS, any modern PC |
 | L8 | Modding? | No |
+
+---
+
+## Связанные разделы
+
+- [[MOC_00_Meta]]
+- [[Decision_Log]]
+- [[GDD_Core_v2]]
+- [[Master_Plan_v2]]

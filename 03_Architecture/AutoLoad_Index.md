@@ -1,12 +1,19 @@
 # AutoLoad Index
-| # | Name | File | Purpose | Signals |
-|---|------|------|---------|---------|
-| 1 | GameState | [[03_Architecture/AutoLoad_Singletons_v2]] | Session data, zone flags | zone_loaded |
-| 2 | SaveManager | [[03_Architecture/AutoLoad_Singletons_v2]] | JSON save/load | saved, loaded |
-| 3 | ProgressionManager | [[03_Architecture/AutoLoad_Singletons_v2]] | NPCs, abilities, Data Drives | npc_rescued, ability_unlocked |
-| 4 | InputManager | [[03_Architecture/AutoLoad_Singletons_v2]] | Dual input detection | device_changed |
-| 5 | DialogueManager | [[03_Architecture/AutoLoad_Singletons_v2]] | Text boxes, portraits | dialogue_started, dialogue_finished |
-| 6 | AudioManager | [[03_Architecture/AutoLoad_Singletons_v2]] | Music states, SFX | music_state_changed |
-| 7 | TimeManager | [[03_Architecture/AutoLoad_Singletons_v2]] | Hybrid time scale | time_dagger_started, time_dagger_ended |
-| 8 | UIManager | [[03_Architecture/AutoLoad_Singletons_v2]] | HUD, menus, pause | hud_updated |
-| 9 | LevelManager | [[03_Architecture/AutoLoad_Singletons_v2]] | Zone transitions | zone_loaded |
+
+Все глобальные синглтоны (AutoLoad) в проекте.
+
+## Синглтоны (9 штук)
+- [[game_state.gd]] — глобальное состояние игры (HP, патроны, позиция)
+- [[save_manager.gd]] — JSON-сохранение/загрузка, автосейвы
+- [[progression_manager.gd]] — флаги прогресса, NPC, способности
+- [[time_manager.gd]] — кастомное замедление времени (группа "time_affected")
+- [[audio_manager.gd]] — динамическая музыка, SFX, амбиенты
+- [[dialogue_manager.gd]] — система диалогов, портреты, текст
+- [[input_manager.gd]] — абстракция ввода (геймпад + клавиатура)
+- [[level_manager.gd]] — переходы между зонами, загрузочный экран
+- [[ui_manager.gd]] — управление UI-экранами (HUD, меню, карта)
+
+## Связанные разделы
+- [[AutoLoad_Singletons_v2]] — полный код каждого синглтона
+- [[MOC_03_Architecture]] — вернуться к разделу
+- [[MOC_06_Project]] — файлы в `systems/autoload/`

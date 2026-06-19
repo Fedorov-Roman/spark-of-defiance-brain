@@ -33,3 +33,12 @@
 - **SFX:** Freesound / itch.io
 - **Voices:** Text-only with placeholder blips
 - **Language:** English
+
+---
+
+## Связанные разделы
+
+- [[MOC_00_Meta]]
+- [[Answers_Bible]]
+- [[Team_Charter_v2]]
+- [[Master_Plan_v2]]

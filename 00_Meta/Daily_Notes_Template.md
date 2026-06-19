@@ -1,21 +1,21 @@
 # Daily Note: {{date}}
 
-## Done
+## Что сделано
 - 
 
-## CP Progress
+## CP прогресс
 - 
 
-## New Decisions
+## Новые решения
 - 
 
-## New Risks
+## Новые риски
 - 
 
-## Next Steps
+## Следующие шаги
 - 
 
-## Links
-- [[05_Production/CP_Index]]
-- [[00_Meta/Decision_Log]]
-- [[05_Production/Bug_Tracker]]
+## Ссылки
+- [[CP-...]]
+- [[Decision_Log]]
+- [[Bug_Tracker]]

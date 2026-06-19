@@ -19,3 +19,12 @@ func exit() -> void: pass
 func update(delta: float) -> void: pass
 func physics_update(delta: float) -> void: pass
 ```
+
+---
+
+## Связанные разделы
+
+- [[MOC_03_Architecture]]
+- [[enemy_base.gd]]
+- [[player.gd]]
+- [[Godot_Architecture_v2]]

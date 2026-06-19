@@ -45,3 +45,12 @@ const ROLL_IFRAMES: float = 0.4
 - Do NOT hardcode key names — use InputMap actions.
 - Wall-jump must clear wall stick (push away from wall).
 - Air dash resets only on ground touch (not on wall).
+
+---
+
+## Связанные разделы
+
+- [[CP_Index]]
+- [[MOC_05_Production]]
+- [[Master_Plan_v2]]
+- [[CP_Template]]

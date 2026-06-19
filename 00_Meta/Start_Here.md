@@ -23,3 +23,12 @@
 - [[Godot_Architecture_v2]] — Scene Tree, AutoLoad, folders
 - [[Master_Plan_v2]] — 22 Checkpoints (CP-0..CP-21)
 - [[New_Chat_Onboarding]] — Paste into any new chat for instant context
+
+---
+
+## Связанные разделы
+
+- [[Index]]
+- [[MOC_00_Meta]]
+- [[How_to_Use_This_Brain]]
+- [[New_Chat_Onboarding]]

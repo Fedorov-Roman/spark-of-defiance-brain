@@ -29,3 +29,12 @@
 - Mouse movement > 0 → mouse mode (show cursor for aim).
 - Any gamepad button/stick → pad mode (hide cursor, snap UI focus).
 - UI navigation: gamepad D-Pad/Left Stick or KB arrows + Enter.
+
+---
+
+## Связанные разделы
+
+- [[MOC_02_GameDesign]]
+- [[Movement_and_Acrobatics_v2]]
+- [[Combat_and_Weapons_v2]]
+- [[GDD_Core_v2]]

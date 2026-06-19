@@ -31,3 +31,12 @@ func take_stun() -> void:
 ## Pitfalls
 - Boss HP != stun count; use stun mechanic, not damage.
 - Avoid `move_and_slide` for burrow (use position lerp + animation).
+
+---
+
+## Связанные разделы
+
+- [[CP_Index]]
+- [[MOC_05_Production]]
+- [[Master_Plan_v2]]
+- [[CP_Template]]

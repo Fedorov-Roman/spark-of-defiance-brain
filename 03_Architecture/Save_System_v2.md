@@ -43,3 +43,12 @@ Path: `user://save.json`
 
 ## Fallback
 If JSON corrupt or version mismatch: start new game with warning.
+
+---
+
+## Связанные разделы
+
+- [[MOC_03_Architecture]]
+- [[AutoLoad_Singletons_v2]]
+- [[Answers_Bible]]
+- [[Progression_and_Hub_v2]]

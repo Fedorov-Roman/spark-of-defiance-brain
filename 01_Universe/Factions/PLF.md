@@ -10,3 +10,12 @@
 
 ## Status
 Recognized by SUN as "workers' representatives" (controlled opposition). Kai's cell rejects them. Mentioned in Data Drives as cautionary tale.
+
+---
+
+## Связанные разделы
+
+- [[Factions_Index]]
+- [[MOC_01_Universe]]
+- [[Lore_Bible]]
+- [[Planets_Index]]

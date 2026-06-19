@@ -49,3 +49,12 @@ CP-0 → CP-1 → CP-2 → CP-4 → CP-6 → CP-5 → CP-7 → CP-8 → CP-9 →
 - **Completed:** Pre-production (all answers, GDD, architecture).
 - **Next:** CP-0 Project Setup.
 - **Blocked by:** Nothing. Ready to start.
+
+---
+
+## Связанные разделы
+
+- [[MOC_05_Production]]
+- [[CP_Index]]
+- [[Decision_Log]]
+- [[Risk_Register]]

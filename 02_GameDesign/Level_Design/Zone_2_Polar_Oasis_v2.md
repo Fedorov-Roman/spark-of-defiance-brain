@@ -27,3 +27,12 @@ Frozen oasis with neon-lit trees. Crashed ship wreck. SUN outpost. Verticality.
 - 3 Data Drives
 - 1 Energy upgrade (Time Dagger duration +0.5s)
 - 2 landing pads
+
+---
+
+## Связанные разделы
+
+- [[Zones_Index]]
+- [[MOC_02_GameDesign]]
+- [[Enemies_Index]]
+- [[Bosses_Index]]

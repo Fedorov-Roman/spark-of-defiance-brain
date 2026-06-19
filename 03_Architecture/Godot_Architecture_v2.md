@@ -10,13 +10,13 @@ Everything is a scene. Player, enemy, NPC, UI panel, zone, hub — all `.tscn`.
 - **Manager:** `Node` root (AutoLoad)
 
 ## AutoLoad (Singletons) — 9 total
-1. **GameState** (`game_state.gd`) — session data, current zone, flags
-2. **SaveManager** (`save_manager.gd`) — JSON save/load, autosave
-3. **ProgressionManager** (`progression_manager.gd`) — NPCs, abilities, Data Drives, hub state
+1. **GameState** (`[[game_state.gd]]`) — session data, current zone, flags
+2. **SaveManager** (`[[save_manager.gd]]`) — JSON save/load, autosave
+3. **ProgressionManager** (`[[progression_manager.gd]]`) — NPCs, abilities, Data Drives, hub state
 4. **InputManager** (`input_manager.gd`) — dual input detection, action mapping, device switching
 5. **DialogueManager** (`dialogue_manager.gd`) — text boxes, portraits, typewriter, skipping
 6. **AudioManager** (`audio_manager.gd`) — music states, crossfade, SFX, buses
-7. **TimeManager** (`time_manager.gd`) — hybrid time scale, shader control, energy
+7. **TimeManager** (`[[time_manager.gd]]`) — hybrid time scale, shader control, energy
 8. **UIManager** (`ui_manager.gd`) — HUD, minimap, inventory, pause, menus
 9. **LevelManager** (`level_manager.gd`) — zone transitions, loading screen, spawn points
 
@@ -35,7 +35,7 @@ assets/
     m5x7.ttf
 entities/
   player/
-    player.gd
+    [[player.gd]]
     player.tscn
   enemies/
     drone_eye.gd
@@ -112,3 +112,12 @@ resources/
 - `"hide_zones"` — tall grass areas
 - `"grapple_points"` — anchor points
 - `"saveables"` — objects that serialize state
+
+---
+
+## Связанные разделы
+
+- [[MOC_03_Architecture]]
+- [[AutoLoad_Singletons_v2]]
+- [[Project_Structure_v2]]
+- [[Component_Pattern]]

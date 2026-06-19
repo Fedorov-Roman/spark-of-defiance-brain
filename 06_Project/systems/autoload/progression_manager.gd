@@ -1,15 +1,28 @@
 class_name ProgressionManager extends Node
-signal npc_rescued(id: String)
-signal ability_unlocked(id: String)
-var rescued_npcs: Dictionary = {}
-var unlocked_abilities: Dictionary = {}
-var data_drives: int = 0
-var discovered_pads: Dictionary = {}
-func rescue_npc(id: String) -> void:
-    if not rescued_npcs.get(id, false): rescued_npcs[id] = true; emit_signal("npc_rescued", id)
-func unlock_ability(id: String) -> void:
-    if not unlocked_abilities.get(id, false): unlocked_abilities[id] = true; emit_signal("ability_unlocked", id)
-func has_ability(id: String) -> bool: return unlocked_abilities.get(id, false)
-func discover_pad(id: String) -> void: discovered_pads[id] = true
-func serialize() -> Dictionary: return {"npcs": rescued_npcs.duplicate(), "abilities": unlocked_abilities.duplicate(), "drives": data_drives, "pads": discovered_pads.duplicate()}
-func deserialize(d: Dictionary) -> void: rescued_npcs = d.get("npcs", {}).duplicate(); unlocked_abilities = d.get("abilities", {}).duplicate(); data_drives = d.get("drives", 0); discovered_pads = d.get("pads", {}).duplicate()
+
+## Флаги спасённых NPC
+var rescued_uno: bool = false
+var rescued_liara: bool = false
+var rescued_jaan: bool = false
+var rescued_elia: bool = false
+var rescued_kess: bool = false
+var rescued_finch: bool = false
+
+## Открытые способности
+var has_double_dash: bool = false
+var has_time_echo: bool = false
+var has_grapple: bool = false
+var has_fast_travel: bool = false
+var has_minimap: bool = false
+
+## Сигналы
+signal ability_unlocked(ability_name: String)
+signal npc_rescued(npc_name: String)
+
+func rescue_npc(npc_name: String) -> void:
+    # TODO Builder: установить rescued_* = true, emit npc_rescued(npc_name), вызвать SaveManager.save_game()
+    pass
+
+func unlock_ability(ability: String) -> void:
+    # TODO Builder: проверить, что NPC спасён (например, has_double_dash требует rescued_jaan). emit ability_unlocked(ability)
+    pass

@@ -86,3 +86,12 @@ Architect writes prompt → Roman generates in Leonardo (model: Phoenix 1.0 / Ci
 
 ## ESCALATION
 If stuck 3 iterations → Architect activates Reserve. Builder never calls Reserve directly.
+
+---
+
+## Связанные разделы
+
+- [[MOC_00_Meta]]
+- [[Start_Here]]
+- [[Index]]
+- [[Team_Charter_v2]]

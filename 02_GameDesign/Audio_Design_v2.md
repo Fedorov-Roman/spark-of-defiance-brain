@@ -40,3 +40,12 @@ Crossfade between states: 2.0 sec.
 - `AudioStreamPlayer2D` for positional SFX (enemies, traps).
 - `AudioStreamPlayer` for UI/HUD (non-positional).
 - Bus layout: Master → Music, SFX, Ambient, UI.
+
+---
+
+## Связанные разделы
+
+- [[MOC_02_GameDesign]]
+- [[Sound_Design_Brief]]
+- [[GDD_Core_v2]]
+- [[Zones_Index]]

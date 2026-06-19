@@ -13,3 +13,12 @@
 | 2026-06-19 | Gravity anomalies (arbitrary up_direction) | D4 answer; walk on ceiling/walls | Re-engineer wall-run/slide for dynamic up_direction |
 | 2026-06-19 | English only, M5x7 font | J4-J6; pixel font with Latin support | All UI text |
 | 2026-06-19 | Leonardo Free Plan: 150 tokens/day | Budget reality; concepts only, no animation | Art pipeline: placeholder → concept → final pixel-art |
+
+---
+
+## Связанные разделы
+
+- [[MOC_00_Meta]]
+- [[Master_Plan_v2]]
+- [[Risk_Register]]
+- [[Answers_Bible]]

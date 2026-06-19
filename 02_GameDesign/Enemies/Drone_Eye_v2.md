@@ -19,3 +19,12 @@
 ## Drops
 - 10% chance: Battery (+30 energy)
 - 50% chance: nothing
+
+---
+
+## Связанные разделы
+
+- [[Enemies_Index]]
+- [[MOC_02_GameDesign]]
+- [[Stealth_System_v2]]
+- [[Combat_and_Weapons_v2]]

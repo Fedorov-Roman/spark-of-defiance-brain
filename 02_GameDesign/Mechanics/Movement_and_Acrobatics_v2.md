@@ -22,7 +22,7 @@ const LEDGE_GRAB_TIME: float = 0.2  # sec to pull up
 - **Jump:** Single jump (double unlocked later).
 - **WallSlide:** Auto on wall contact, gravity reduced to WALL_SLIDE_SPEED.
 - **WallJump:** Press jump while wall-sliding → impulse away from wall + up.
-- **Dash:** 4 directions (left/right/up/down). Air dash once (resets on ground). i-frames.
+- **Dash:** 4 directions (left/right/up/down). Air [[Time_Dagger_v2|dash]] once (resets on ground). i-frames.
 - **Roll:** Ground only. i-frames 0.4s. Low hitbox. Can pass through enemies.
 - **Crouch:** Speed ×0.5. Noise radius ×0.3. Hitbox height halved. Can enter vents.
 - **LedgeGrab:** Auto when falling past ledge. Press up to pull up in 0.2s.
@@ -30,8 +30,17 @@ const LEDGE_GRAB_TIME: float = 0.2  # sec to pull up
 - **Knockback:** On damage. Invulnerable 1.0 sec. No control 0.3 sec.
 
 ## Implementation Notes
-- `CharacterBody2D` with `move_and_slide()`.
+- `[[player.gd|CharacterBody2D]]` with `move_and_slide()`.
 - `up_direction` defaults to `Vector2.UP`. Changes in Zone 3 anomalies.
 - Wall detection: `is_on_wall()` + normal angle check (>60° from floor).
 - Dash: `velocity = direction * DASH_SPEED` for DASH_DURATION, then restore.
 - Grapple: custom physics (distance constraint, swing force). NOT `PinJoint2D`.
+
+---
+
+## Связанные разделы
+
+- [[Mechanics_Index]]
+- [[MOC_02_GameDesign]]
+- [[GDD_Core_v2]]
+- [[Input_Map]]

@@ -30,3 +30,12 @@ func trigger() -> void:
 3. Use `CanvasModulate` + `ColorRect` for storm darkness.
 ## Pitfalls
 - `TileMap` is deprecated in favor of `TileMapLayer` in 4.6; use `TileMap` for compatibility or `TileMapLayer` if preferred.
+
+---
+
+## Связанные разделы
+
+- [[CP_Index]]
+- [[MOC_03_Architecture]]
+- [[Master_Plan_v2]]
+- [[CP_Template]]

@@ -1,22 +1,42 @@
 # Spark of Defiance — Master Index
 
-## Navigation by Section
-- [[00_Meta/MOC_00_Meta]] — Meta, team, decisions
-- [[01_Universe/MOC_01_Universe]] — Universe, lore, factions
-- [[02_GameDesign/MOC_02_GameDesign]] — Game design, mechanics, levels
-- [[03_Architecture/MOC_03_Architecture]] — Godot, scenes, AutoLoad, CP
-- [[04_Assets/MOC_04_Assets]] — Art, sound, Leonardo pipeline
-- [[05_Production/MOC_05_Production]] — Plan, CP tracking, risks
-- [[99_Templates/MOC_99_Templates]] — Templates
+Главный индекс проекта «Spark of Defiance». Начните здесь.
 
-## Current Focus
-- Active CP: [[05_Production/CP_Tracker/CP-0_Project_Setup]]
-- Next: [[05_Production/CP_Tracker/CP-1_Player_Movement]]
-- Blockers: none
+## Навигация по разделам
+- [[MOC_00_Meta]] — мета, команда, решения, риски
+- [[MOC_01_Universe]] — вселенная, лор, фракции, персонажи, планеты
+- [[MOC_02_GameDesign]] — геймдизайн, механики, уровни, враги, боссы
+- [[MOC_03_Architecture]] — Godot, сцены, AutoLoad, паттерны, CP
+- [[MOC_04_Assets]] — арт, звук, Leonardo.Ai pipeline
+- [[MOC_05_Production]] — план, CP-трекер, билды, шаблоны
+- [[MOC_06_Project]] — кодовая база Godot 4.6.3
+- [[MOC_99_Templates]] — шаблоны ТЗ, ревью, арт-запросов
 
-## Quick Links
-- [[00_Meta/Answers_Bible]] — all 88 answers
-- [[00_Meta/New_Chat_Onboarding]] — context for new chat
-- [[00_Meta/Start_Here]] — entry point
-- [[00_Meta/Kimi_Self_Expansion_Protocol]] — auto-expansion rules
-- [[00_Meta/How_to_Use_This_Brain]] — instructions for Roman
+## Быстрые ссылки
+- [[Start_Here]] — точка входа для новых участников
+- [[Answers_Bible]] — все 88 ответов заказчика (источник правды)
+- [[New_Chat_Onboarding]] — контекст для нового чата с AI
+- [[How_to_Use_This_Brain]] — инструкция для Романа
+- [[Kimi_Self_Expansion_Protocol]] — правила авто-расширения мозга
+- [[Master_Plan_v2]] — полный план разработки (22 CP)
+- [[Decision_Log]] — архитектурные решения
+- [[Risk_Register]] — риски и митигации
+- [[Bug_Tracker]] — текущие баги
+- [[Asset_Inventory]] — учёт артов Leonardo
+
+## Текущий фокус разработки
+- **Активный CP:** [[CP-0_Project_Setup]] (подготовка проекта)
+- **Следующий:** [[CP-1_Player_Movement]]
+- **Блокеры:** нет
+- **Целевой билд:** MVP (Зона 1 + Хаб + Левиафан)
+
+## Команда
+- **Роман (Рома)** — Заказчик, Producer, Leonardo Operator, Godot Tester
+- **Kimi** — Architect (Tech Lead), проектировщик, ревьюер
+- **DeepSeek v4 Pro** — Primary Builder (production-код)
+- **DeepSeek v4 Flash** — Reserve Researcher (поиск API, консультации)
+- **Qwen 3.7 Max** — Reserve Architect (сложные архитектурные задачи)
+- **Leonardo.Ai Free** — Concept Artist & Texture Designer
+
+## Последнее обновление
+2026-06-20 — Полный аудит мозга, создание MOC, индексов, системных файлов.
