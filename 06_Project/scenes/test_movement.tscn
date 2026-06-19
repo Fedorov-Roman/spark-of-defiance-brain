@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3 uid="uid://test"]
+
+[ext_resource type="PackedScene" path="res://entities/player/player.tscn" id="1_p"]
+[ext_resource type="Texture2D" path="res://assets/art/placeholder/ground.png" id="2_g"]
+
+[sub_resource type="RectangleShape2D" id="Rect_g"]
+size = Vector2(640, 32)
+
+[node name="TestMovement" type="Node2D"]
+
+[node name="Ground" type="StaticBody2D" parent="."]
+position = Vector2(320, 344)
+collision_layer = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
+shape = SubResource("Rect_g")
+
+[node name="Sprite2D" type="Sprite2D" parent="Ground"]
+scale = Vector2(20, 1)
+texture = ExtResource("2_g")
+
+[node name="Wall" type="StaticBody2D" parent="."]
+position = Vector2(500, 280)
+collision_layer = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall"]
+shape = SubResource("Rect_g")
+
+[node name="Sprite2D" type="Sprite2D" parent="Wall"]
+scale = Vector2(1, 4)
+texture = ExtResource("2_g")
+
+[node name="Player" parent="." instance=ExtResource("1_p")]
+position = Vector2(100, 300)

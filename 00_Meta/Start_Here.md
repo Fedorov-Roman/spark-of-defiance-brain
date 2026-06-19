@@ -1,55 +1,24 @@
-# 🚀 Start Here
+# Start Here
 
-**Проект:** Spark of Defiance  
-**Движок:** Godot 4.6.3 Stable (2D Pixel-Art)  
-**Жанр:** Stealth-Platformer + Metroidvania  
-**Роли:** Kimi (Architect), DeepSeek v4 Pro (Primary Builder), Leonardo.Ai (Concept Artist), DeepSeek Flash / Qwen 3.7 Max (Reserve).  
+**Project:** Spark of Defiance  
+**Engine:** Godot 4.6.3 stable (GDScript)  
+**Platform:** PC (Windows) | Gamepad + KB/Mouse  
+**Resolution:** 640×360 base (32×32 tiles, pixel-perfect x2/x3)  
+**Genre:** 2D Stealth-Platformer / Metroidvania  
+**Language:** English  
+**Font:** M5x7 or Pixel Operator  
+**Art:** 32×32 placeholder → pixel-art (SpriteSheets, 4-dir, flip H)  
+**Audio:** Freesound / itch.io free assets  
+**Leonardo.Ai:** Concept art & textures (Free Plan, 150 tokens/day)  
 
----
+**Current Phase:** Pre-production complete. CP-0 (Project Setup) ready to start.  
+**Last Updated:** 2026-06-19  
 
-## 📂 Навигация по Vault
-
-| Папка | Содержимое |
-|-------|------------|
-| `00_Meta/` | Точка входа, онбординг, команда, манифест |
-| `01_Universe/` | Лор, фракции, планеты, персонажи вселенной «Kill a Horse of Freedom» |
-| `02_GameDesign/` | GDD, механики, уровни, враги |
-| `03_Godot_Architecture/` | Структура проекта, сцены, AutoLoad, сигналы, Input Map, Save System |
-| `04_Assets_and_Art/` | Пайплайн арта, Leonardo.Ai, аудио, плейсхолдеры |
-| `05_Production/` | Master Plan, CP-Tracker, риски, решения |
-| `99_Templates/` | Шаблоны ТЗ, запросов арта, ревью |
-
----
-
-## 🎯 Быстрый старт для нового чата
-
-**Если вы Kimi (Architect) в новом чате:** скопируйте содержимое `[[New_Chat_Onboarding]]` целиком в системный промпт.  
-**Если вы Builder в новом чате:** скопируйте `[[New_Chat_Onboarding]]` + `[[CP-0_Project_Setup]]` или актуальный CP.  
-**Если вы Роман:** откройте `[[Master_Plan]]` для текущего статуса.
-
----
-
-## 🔑 Ключевые решения (зафиксировано)
-
-- **Масштаб:** Полная игра (3 зоны + 3 босса + хаб + финал).
-- **Платформа:** PC (Windows), геймпад + клавиатура/мышь.
-- **Графика:** 32×32 тайлы, pixel-perfect масштаб x2/x3, placeholder → pixel-art.
-- **Версия Godot:** 4.6.3 Stable (проверена, существует).
-- **Структура:** Модульная (`entities/`, `systems/`, `scenes/`, `assets/`).
-- **Сохранение:** JSON, полное состояние мира, автосейвы на чекпоинтах.
-- **Язык:** Английский (текст + UI).
-- **Локализация:** Только английский для MVP.
-- **Контроль:** Git используется.
-
----
-
-## 📞 Протокол эскалации
-
-1. **Primary Builder (DeepSeek Pro)** застрял на 3 итерациях ревью → Architect переключает задачу на **Reserve Builder (DeepSeek Flash)**.
-2. **Architect (Kimi)** не может выбрать паттерн → запрашивает **Reserve Architect (Qwen 3.7 Max)**.
-3. **Reserve** не пишет код в проект без явного ТЗ от Architect'а. Только анализ, черновики, тулзы.
-
----
-
-*Последнее обновление: 2026-06-19*  
-*Версия мозга: 2.0 Full Context*
+## Quick Links
+- [[Answers_Bible]] — All 88 answered questions (single source of truth)
+- [[Project_Manifest_v2]] — Goals, scope, format, platform
+- [[Team_Charter_v2]] — Roles & workflow
+- [[GDD_Core_v2]] — Game Design Document
+- [[Godot_Architecture_v2]] — Scene Tree, AutoLoad, folders
+- [[Master_Plan_v2]] — 22 Checkpoints (CP-0..CP-21)
+- [[New_Chat_Onboarding]] — Paste into any new chat for instant context

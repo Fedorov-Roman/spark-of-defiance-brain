@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://hub"]
+
+[ext_resource type="Texture2D" path="res://assets/art/placeholder/ground.png" id="1_g"]
+
+[sub_resource type="RectangleShape2D" id="Rect_g"]
+size = Vector2(640, 32)
+
+[node name="Hub" type="Node2D"]
+
+[node name="Floor" type="StaticBody2D" parent="."]
+position = Vector2(320, 344)
+collision_layer = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+shape = SubResource("Rect_g")
+
+[node name="Sprite2D" type="Sprite2D" parent="Floor"]
+scale = Vector2(20, 1)
+texture = ExtResource("1_g")

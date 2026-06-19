@@ -1,45 +1,22 @@
-# Asset Request — [Название ассета]
+# Asset Request: [Name]
 
-## Тип ассета
-- [ ] Концепт персонажа
-- [ ] Фон / Пейзаж
-- [ ] Текстура (seamless)
-- [ ] UI иконка
-- [ ] Черновик / Sketch
+## For Leonardo.Ai
+**Model:** [Phoenix 1.0 / Cinematic Kino / Concept Art / Graphic Design / FLUX Schnell]
+**Style:** [Portrait / Cinematic / None / Vibrant / Sketch]
+**Size:** [Small 896×896 / Medium 1024×1024]
+**Dimensions:** [1:1 / 2:3 / 16:9]
+**Tiling:** [ON / OFF]
+**Fixed Seed:** [ON / OFF]
+**Negative Prompt:** ON
 
-## Модель Leonardo
-- [ ] Phoenix 1.0
-- [ ] Cinematic Kino
-- [ ] Concept Art
-- [ ] Graphic Design
-- [ ] FLUX Schnell
+### Prompt
+[Visual description only. NO names like "Kai", "SUN", "Postulate". Use colors, shapes, materials, lighting.]
 
-## Стиль
-- [ ] Portrait
-- [ ] Cinematic
-- [ ] None
-- [ ] Vibrant
-- [ ] Sketch (Color)
+### Negative Prompt
+blurry, low quality, deformed hands, extra fingers, watermark, text, logo, cropped, anime, cartoon, 3D render, stock photo, photorealistic
 
-## Настройки
-- **Generation Mode:** Fast
-- **Size:** Medium 1024×1024 / Small 896×896
-- **Dimensions:** 1:1 / 2:3 / 16:9
-- **Tiling:** ON / OFF
-- **Negative Prompt:** ON
+### Purpose
+[What is this for? e.g., "Player reference for sprite artist"]
 
-## Промпт (EN, без имён проекта)
-```
-[PROMPT HERE]
-```
-
-## Negative Prompt
-```
-[NEGATIVE PROMPT HERE]
-```
-
-## Цель использования
-[Для чего этот ассет в игре?]
-
-## Примечания
-[Особые требования]
+### Estimated Tokens
+[~8 / ~16]

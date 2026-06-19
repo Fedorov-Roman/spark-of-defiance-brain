@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://hud"]
+
+[ext_resource type="Script" path="res://ui/hud/hud.gd" id="1_s"]
+
+[node name="HUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+offset_right = 640.0
+offset_bottom = 360.0
+script = ExtResource("1_s")
+
+[node name="Hearts" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 110.0
+offset_bottom = 26.0
+
+[node name="EnergyBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 220.0
+offset_top = 340.0
+offset_right = 420.0
+offset_bottom = 350.0
+max_value = 100.0
+value = 100.0
