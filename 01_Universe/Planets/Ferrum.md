@@ -5,12 +5,3 @@
 
 ## In Game
 Cameo: Uno (Engineer NPC) is Ferrum-born. Dabali metalworking techniques used in Kai's gear.
-
----
-
-## Связанные разделы
-
-- [[Planets_Index]]
-- [[MOC_01_Universe]]
-- [[Lore_Bible]]
-- [[Zones_Index]]

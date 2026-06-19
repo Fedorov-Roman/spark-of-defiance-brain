@@ -10,12 +10,3 @@
 
 ## Status
 Some smugglers on Postulate sell goods to both sides. Not a major faction in game.
-
----
-
-## Связанные разделы
-
-- [[Factions_Index]]
-- [[MOC_01_Universe]]
-- [[Lore_Bible]]
-- [[Planets_Index]]

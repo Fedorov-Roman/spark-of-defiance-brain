@@ -21,12 +21,3 @@
 
 ## On Postulate
 Spark Cell operates from hidden base in ruins. Kai is their operative. Cell lacks heavy weapons; relies on infiltration and sabotage.
-
----
-
-## Связанные разделы
-
-- [[Factions_Index]]
-- [[MOC_01_Universe]]
-- [[Lore_Bible]]
-- [[Planets_Index]]

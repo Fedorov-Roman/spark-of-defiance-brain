@@ -1,33 +1,42 @@
-# Spark of Defiance — Obsidian Vault
+# Spark of Defiance — Second Brain
 
-Полный мозг (brain) проекта «Spark of Defiance» — 2D стелс-платформер на Godot 4.6.3.
+## What is this?
 
-## Быстрый старт
-- **Новичок:** открой [[Start_Here]] → [[How_to_Use_This_Brain]]
-- **Kimi (Architect):** [[New_Chat_Onboarding]] → [[Kimi_Self_Expansion_Protocol]]
-- **DeepSeek (Builder):** [[Builder_Onboarding]] → [[CP-0_Project_Setup]]
-- **Роман (Producer):** [[Roman_Daily_Checklist]] → [[Master_Plan_v2]]
-- **Leonardo:** [[Leonardo_Prompts_Ready]] → [[Asset_Request_Template]]
+This is an **Obsidian vault** — a complete knowledge base for the game *Spark of Defiance*.
 
-## Структура
-```
-00_Meta/          — Управление, команда, решения, риски
-01_Universe/      — Лор, фракции, планеты, персонажи
-02_GameDesign/    — Механики, уровни, враги, боссы, UI, звук
-03_Architecture/  — Godot, сцены, AutoLoad, CP, паттерны
-04_Assets/        — Leonardo, арт, звук, конвенции
-05_Production/    — План, CP-трекер, билды, баги
-06_Project/       — Рабочий код Godot (.gd, .tscn, .godot)
-99_Templates/     — Шаблоны ТЗ, ревью, онбординга
-```
+## How to use
 
-## Текущий статус
-- **CP:** CP-0 Project Setup (в процессе)
-- **Следующий:** CP-1 Player Movement
-- **Цель:** MVP (Зона 1 + Хаб + Левиафан)
-- **Версия мозга:** v4-final
+1. Download and install [Obsidian](https://obsidian.md/)
+2. Open this folder as a vault
+3. Start at [[Start_Here]]
 
-## Связанные файлы
-- [[Index]] — мастер-индекс
-- [[Audit_Report_v1]] — последний аудит
-- [[Decision_Log]] — архитектурные решения
+## For AI Onboarding
+
+When starting a new chat with an AI (Architect, Builder, or Reserve):
+
+1. Open `00_Meta/New_Chat_Onboarding.md`
+2. Copy the entire contents
+3. Paste into the chat as the first message
+
+The AI will instantly understand the project context, roles, and current status.
+
+## For Leonardo.Ai
+
+1. Open `04_Assets/Leonardo_Prompts_Ready.md`
+2. Copy any prompt
+3. Paste into Leonardo with specified settings
+
+## Structure
+
+- `00_Meta/` — Project meta, team, onboarding
+- `01_Universe/` — Lore, factions, planets, characters
+- `02_GameDesign/` — GDD, mechanics, levels, enemies, bosses
+- `03_Architecture/` — Godot architecture, CP tracker
+- `04_Assets/` — Art pipeline, Leonardo prompts, sound
+- `05_Production/` — Master plan, risks, decisions, audit
+- `06_Project/` — ACTUAL GODOT PROJECT FILES (open in Godot 4.6.3)
+- `99_Templates/` — Reusable templates
+
+## License
+
+Internal use only. All rights reserved by Roman Fedorov.

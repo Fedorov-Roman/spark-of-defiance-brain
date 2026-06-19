@@ -1,13 +1,6 @@
 class_name UIManager extends Node
-
-## Управление UI-экранами
-enum Screen { HUD, PAUSE, MAP, INVENTORY, DIALOGUE, LOADING }
-var current_screen: Screen = Screen.HUD
-
-func show_screen(screen: Screen) -> void:
-    # TODO Builder: для каждого Screen: get_node(screen_name).visible = true/false. При показе PAUSE: Engine.time_scale = 0 (кроме UI)
-    pass
-
-func show_loading_screen(lore_text: String) -> void:
-    # TODO Builder: Label.text = lore_text, Tween на progress bar (0→100 за 2с), затем fade out
-    pass
+var hud: Control = null
+func _ready() -> void:
+    if ResourceLoader.exists("res://ui/hud/hud.tscn"):
+        hud = load("res://ui/hud/hud.tscn").instantiate(); add_child(hud)
+func update_health(c: int, m: int) -> void: if hud: hud.update_health(c, m)

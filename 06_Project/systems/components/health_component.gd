@@ -1,17 +1,9 @@
 class_name HealthComponent extends Node
-
-signal health_changed(new_hp: int, max_hp: int)
+signal changed(current: int, maximum: int)
 signal died
-
 @export var max_hp: int = 3
-var current_hp: int = max_hp
-
-func take_damage(amount: int) -> void:
-    current_hp = max(0, current_hp - amount)
-    health_changed.emit(current_hp, max_hp)
-    if current_hp <= 0:
-        died.emit()
-
-func heal(amount: int) -> void:
-    current_hp = min(max_hp, current_hp + amount)
-    health_changed.emit(current_hp, max_hp)
+var current: int = 3
+func damage(a: int) -> void: current -= a; emit_signal("changed", current, max_hp); if current <= 0: emit_signal("died")
+func heal(a: int) -> void: current = min(max_hp, current + a); emit_signal("changed", current, max_hp)
+func serialize() -> Dictionary: return {"current": current, "max": max_hp}
+func deserialize(d: Dictionary) -> void: current = d.get("current", max_hp); max_hp = d.get("max", 3)

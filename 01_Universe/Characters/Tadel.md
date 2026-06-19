@@ -11,12 +11,3 @@ Found in Data Drives across all zones. Tadel gives mission context, warns about 
 
 ## Fate
 Captured by SUN during raid on Zone 2. Fate unknown by end of game.
-
----
-
-## Связанные разделы
-
-- [[Characters_Index]]
-- [[MOC_01_Universe]]
-- [[Factions_Index]]
-- [[Planets_Index]]

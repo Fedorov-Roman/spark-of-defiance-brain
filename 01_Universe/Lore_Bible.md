@@ -19,12 +19,3 @@ Desert planet. Surface: extreme iron-oxide deserts. Subsurface: ancient alien ru
 
 ## Kai "Iskra"
 Native Postulate survivor. Family killed in SUN dust-storm negligence (terraforming accident). Rescued by UFO cell. Silent. Skilled in infiltration, acrobatics, time-manipulation (Chronomancer training incomplete). Wears hooded cloak, red scarf, energy dagger.
-
----
-
-## Связанные разделы
-
-- [[MOC_01_Universe]]
-- [[Factions_Index]]
-- [[Planets_Index]]
-- [[Characters_Index]]

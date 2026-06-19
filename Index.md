@@ -1,42 +1,65 @@
-# Spark of Defiance — Master Index
+# Spark of Defiance — Vault Index
 
-Главный индекс проекта «Spark of Defiance». Начните здесь.
+## 🧠 Second Brain for Game Development
 
-## Навигация по разделам
-- [[MOC_00_Meta]] — мета, команда, решения, риски
-- [[MOC_01_Universe]] — вселенная, лор, фракции, персонажи, планеты
-- [[MOC_02_GameDesign]] — геймдизайн, механики, уровни, враги, боссы
-- [[MOC_03_Architecture]] — Godot, сцены, AutoLoad, паттерны, CP
-- [[MOC_04_Assets]] — арт, звук, Leonardo.Ai pipeline
-- [[MOC_05_Production]] — план, CP-трекер, билды, шаблоны
-- [[MOC_06_Project]] — кодовая база Godot 4.6.3
-- [[MOC_99_Templates]] — шаблоны ТЗ, ревью, арт-запросов
+This Obsidian vault contains the complete knowledge base for *Spark of Defiance* — a 2D stealth platformer with metroidvania elements.
 
-## Быстрые ссылки
-- [[Start_Here]] — точка входа для новых участников
-- [[Answers_Bible]] — все 88 ответов заказчика (источник правды)
-- [[New_Chat_Onboarding]] — контекст для нового чата с AI
-- [[How_to_Use_This_Brain]] — инструкция для Романа
-- [[Kimi_Self_Expansion_Protocol]] — правила авто-расширения мозга
-- [[Master_Plan_v2]] — полный план разработки (22 CP)
-- [[Decision_Log]] — архитектурные решения
-- [[Risk_Register]] — риски и митигации
-- [[Bug_Tracker]] — текущие баги
-- [[Asset_Inventory]] — учёт артов Leonardo
+---
 
-## Текущий фокус разработки
-- **Активный CP:** [[CP-0_Project_Setup]] (подготовка проекта)
-- **Следующий:** [[CP-1_Player_Movement]]
-- **Блокеры:** нет
-- **Целевой билд:** MVP (Зона 1 + Хаб + Левиафан)
+## 📂 Vault Map
 
-## Команда
-- **Роман (Рома)** — Заказчик, Producer, Leonardo Operator, Godot Tester
-- **Kimi** — Architect (Tech Lead), проектировщик, ревьюер
-- **DeepSeek v4 Pro** — Primary Builder (production-код)
-- **DeepSeek v4 Flash** — Reserve Researcher (поиск API, консультации)
-- **Qwen 3.7 Max** — Reserve Architect (сложные архитектурные задачи)
-- **Leonardo.Ai Free** — Concept Artist & Texture Designer
+### Meta & Team
+- [[Start_Here]] — Entry point
+- [[Team_Charter]] — Roles and responsibilities
+- [[New_Chat_Onboarding]] — Onboarding new AI instances
+- [[Builder_Onboarding]] — Builder-specific instructions
+- [[Roman_Daily_Checklist]] — Daily workflow for Roman
 
-## Последнее обновление
-2026-06-20 — Полный аудит мозга, создание MOC, индексов, системных файлов.
+### Universe & Lore
+- [[Lore_Bible]] — Complete universe timeline
+- [[MOC_01_Universe]] — Characters, factions, planets
+- [[Kai_Iskra]] — Protagonist profile
+- [[SUN]] | [[UFO]] | [[UN]] — Major factions
+- [[Postulate]] — Game world
+
+### Game Design
+- [[GDD_Core]] — Core design document
+- [[MOC_02_GameDesign]] — Mechanics, levels, enemies, bosses
+- [[Movement_and_Acrobatics]] | [[Stealth_System]] | [[Time_Dagger]]
+- [[Zone_1_Red_Dunes]] | [[Zone_2_Polar_Oasis]] | [[Zone_3_Deep_Labs]]
+- [[Sand_Leviathan]] | [[Helios_7]] | [[Biomechanoid]]
+
+### Architecture & Development
+- [[MOC_03_Architecture]] — Godot architecture, CP tracker
+- [[Godot_Architecture]] — Scene tree, signals, groups
+- [[AutoLoad_Singletons]] — Global managers
+- [[Save_System]] — JSON serialization
+- [[MOC_CP_Tracker]] — All checkpoints
+
+### Assets & Art
+- [[MOC_04_Assets]] — Art pipeline, sound, inventory
+- [[Leonardo_AI_Pipeline]] — Leonardo.Ai setup
+- [[Leonardo_Prompts_Ready]] — Copy-paste prompts
+
+### Production
+- [[MOC_05_Production]] — Planning, risks, audit
+- [[Master_Plan]] | [[Master_Plan_v2]]
+- [[Risk_Register]] | [[Decision_Log]] | [[Audit_Report]]
+
+### Godot Project (Code)
+- [[MOC_06_Project]] — Actual Godot files
+- `project.godot` — Engine settings
+- `entities/player/player.gd` — Working player controller
+- `systems/autoload/save_manager.gd` — Save/load system
+
+---
+
+## 🗺️ Graph View Tips
+
+- Use **Local Graph** to see connections from the current note
+- Use **Global Graph** to see the entire knowledge web
+- **Tags**: `#cp-ready`, `#needs-review`, `#leonardo-ready`, `#code-ready`
+
+---
+
+*Maintained by Architect (Kimi) and Roman. Last updated: 2026-06-20.*

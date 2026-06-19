@@ -14,10 +14,3 @@
 - Esc: Pause
 ## Structure
 See `03_Architecture/` in the brain for full docs.
-
----
-
-## Связанные разделы
-
-- [[MOC_00_Meta]]
-- [[Index]]

@@ -5,12 +5,3 @@
 
 ## In Game
 Cameo via Data Drives. Tadel's previous mission. Source of wood-like composite materials used in Postulate ruins.
-
----
-
-## Связанные разделы
-
-- [[Planets_Index]]
-- [[MOC_01_Universe]]
-- [[Lore_Bible]]
-- [[Zones_Index]]

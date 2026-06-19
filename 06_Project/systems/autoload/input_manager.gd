@@ -1,16 +1,44 @@
 class_name InputManager extends Node
 
-## Двойное управление: геймпад + клавиатура/мышь
-## Answers Bible: геймпад + KB/M, стик для снайперки, мышь тоже
+## Unified input abstraction for gamepad + keyboard/mouse.
 
-func get_movement_vector() -> Vector2:
-    # TODO Builder: return Input.get_vector("move_left", "move_right", "move_up", "move_down") — Godot автоматически объединяет KB и pad
-    return Vector2.ZERO
+signal input_device_changed(device_type: String)
+
+var _current_device: String = "gamepad"
+var _mouse_movement: Vector2 = Vector2.ZERO
+
+func _ready() -> void:
+    Input.joy_connection_changed.connect(_on_joy_connection_changed)
+
+func _input(event: InputEvent) -> void:
+    if event is InputEventMouseMotion or event is InputEventKey:
+        if _current_device != "keyboard":
+            _current_device = "keyboard"
+            input_device_changed.emit(_current_device)
+    elif event is InputEventJoypadButton or event is InputEventJoypadMotion:
+        if _current_device != "gamepad":
+            _current_device = "gamepad"
+            input_device_changed.emit(_current_device)
+
+func _on_joy_connection_changed(_device: int, _connected: bool) -> void:
+    pass
+
+func is_action_pressed(action: String) -> bool:
+    return Input.is_action_pressed(action)
+
+func is_action_just_pressed(action: String) -> bool:
+    return Input.is_action_just_pressed(action)
+
+func is_action_just_released(action: String) -> bool:
+    return Input.is_action_just_released(action)
+
+func get_vector(negative_x: String, positive_x: String, negative_y: String, positive_y: String) -> Vector2:
+    return Input.get_vector(negative_x, positive_x, negative_y, positive_y)
 
 func get_aim_direction() -> Vector2:
-    # TODO Builder: если Input.get_last_mouse_velocity() > 0: return get_global_mouse_position() - player_pos. Иначе: Input.get_vector("aim_left", "aim_right", "aim_up", "aim_down") * 100
-    return Vector2.ZERO
-
-func is_action_just_pressed_action(action: String) -> bool:
-    # TODO Builder: return Input.is_action_just_pressed(action) — простой проброс, но централизованно
-    return false
+    if _current_device == "keyboard":
+        var mouse_pos := get_viewport().get_mouse_position()
+        var player_pos := get_viewport().get_camera_2d().global_position if get_viewport().get_camera_2d() else Vector2.ZERO
+        return (mouse_pos - player_pos).normalized()
+    else:
+        return Input.get_vector("aim_left", "aim_right", "aim_up", "aim_down")

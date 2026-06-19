@@ -1,45 +1,19 @@
 # Art Conventions
 
-Конвенции визуального оформления «Spark of Defiance».
+## Resolution
+- Base: 32x32 tiles
+- Viewport: 640x360 (20x11 tiles)
+- Scale: x2 or x3 pixel-perfect
 
-## Базовые параметры
-- **Базовый тайл:** 32×32 пикселя
-- **Pixel-perfect масштаб:** ×2 или ×3 (итоговый размер 64×64 или 96×96 на экране)
-- **Viewport:** 640×360 (20×11 тайлов) или 480×270 (15×8.4 тайлов)
-- **Stretch:** `canvas_items`, `integer` (без размытия)
-- **TextureFilter:** `NEAREST` (для всех спрайтов)
+## Color Palette
+- Player: Cyan + dark gray
+- Enemies: Red (SUN), Purple (Elite), Brown (Beast)
+- Environment: Orange/brown (dunes), Blue/white (oasis), Dark green (labs)
 
-## Палитра (примерная, уточняется Leonardo)
-- **Пустыня (Зона 1):** охра, терракота, ржавчина, оранжевый закат
-- **Лёд (Зона 2):** ледяной синий, белый, неоновый голубой, тёмный металл
-- **Руины (Зона 3):** тёмно-зелёный, фиолетовый, биолюминесценция, ржавчина
-- **Хаб:** тёплый оранжевый, тусклый жёлтый, металл
-- **SUN:** холодный синий металлик, угольно-серый, серебристый
-- **UFO:** ярко-красный, угольно-чёрный, серебристый
+## Animation
+- 8-12 frames per action
+- 12 FPS default
+- AnimatedSprite2D for MVP, AnimationTree for polish
 
-## SpriteSheet
-- **Формат:** PNG, прозрачность (alpha)
-- **Кадры:** 4 направления (Left/Right флипаются, Up, Down)
-- **Анимации Кая:** idle, run, wall_slide, wall_jump, dash, roll, crouch, jump, fall, ledge_grab, grapple, stealth_kill, death
-- **Враги:** idle, patrol, alert, attack, paralyzed, death
-- **Расположение:** горизонтальная полоса (кадры в ряд) или сетка
-
-## Портреты для диалогов
-- **Размер:** 64×64 или 96×96
-- **Стиль:** пиксель-арт, ограниченная палитра
-- **Формат:** PNG с прозрачностью
-
-## Импорт в Godot
-- **Sprites:** Import → 2D Pixel, Filter: Nearest
-- **Textures:** Repeat: Enabled (для тайлов), Filter: Nearest
-- **UI:** Filter: Nearest, Mipmaps: Off
-
-## Placeholder'ы (стартовые)
-- Используются цветные квадраты из `06_Project/assets/art/placeholder/`
-- Заменяются на финальный арт по мере готовности
-- Не удалять placeholder'ы до финальной полировки
-
-## Связанные разделы
-- [[Leonardo_AI_Pipeline_v2]] — генерация концептов
-- [[Asset_Inventory]] — учёт ассетов
-- [[MOC_04_Assets]] — вернуться к разделу
+## Up
+[[MOC_04_Assets]]
