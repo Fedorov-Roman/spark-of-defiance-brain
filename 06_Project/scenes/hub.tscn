@@ -1,19 +1,23 @@
-[gd_scene load_steps=2 format=3 uid="uid://hub"]
+[gd_scene load_steps=2 format=3]
 
-[ext_resource type="Texture2D" path="res://assets/art/placeholder/ground.png" id="1_g"]
+[sub_resource type="GDScript" id="GDScript_hub"]
+resource_name = "hub_gd"
+script/source = "extends Node2D
 
-[sub_resource type="RectangleShape2D" id="Rect_g"]
-size = Vector2(640, 32)
+func _ready() -> void:
+	pass
+"
 
 [node name="Hub" type="Node2D"]
+script = SubResource("GDScript_hub")
 
-[node name="Floor" type="StaticBody2D" parent="."]
-position = Vector2(320, 344)
-collision_layer = 1
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(320, 180)
+current = true
+position_smoothing_enabled = true
+zoom = Vector2(1, 1)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
-shape = SubResource("Rect_g")
-
-[node name="Sprite2D" type="Sprite2D" parent="Floor"]
-scale = Vector2(20, 1)
-texture = ExtResource("1_g")
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 640.0
+offset_bottom = 360.0
+color = Color(0.10196, 0.10196, 0.18039, 1)

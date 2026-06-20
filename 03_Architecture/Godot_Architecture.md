@@ -1,11 +1,14 @@
 # Godot Architecture
 
-## Scene Tree Philosophy
+## Renderer
+- **GL Compatibility** — единственный вариант для pixel-perfect 2D в Godot 4.x
+- Mobile/Forward+ дают субпиксельные артефакты при integer scaling
+- NEAREST filter обязателен для всех canvas текстур
 
+## Scene Tree Philosophy
 Everything is a scene. Player, enemy, UI element, level — all `.tscn` files.
 
 ## Key Nodes
-
 - `CharacterBody2D` — Player, enemies (manual physics).
 - `Area2D` — Triggers, vision cones, noise detection.
 - `RayCast2D` — Line of sight checks.
@@ -14,7 +17,6 @@ Everything is a scene. Player, enemy, UI element, level — all `.tscn` files.
 - `GPUParticles2D` — Dust, sparks, smoke.
 
 ## Physics Layers
-
 | Layer | Purpose |
 |-------|---------|
 | 1 | Player |
@@ -31,5 +33,4 @@ Everything is a scene. Player, enemy, UI element, level — all `.tscn` files.
 | 12 | Boss Weak Points |
 
 ## Up
-
 [[MOC_03_Architecture]]

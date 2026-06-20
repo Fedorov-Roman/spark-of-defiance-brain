@@ -2,6 +2,8 @@
 
 ```
 res://
+├── tools/
+│   └── generate_placeholders.gd
 ├── entities/
 │   ├── player/
 │   ├── enemies/
@@ -20,7 +22,7 @@ res://
 │   └── menus/
 ├── assets/
 │   ├── art/
-│   ├── placeholder/
+│   │   └── placeholder/
 │   └── sound/
 └── dialogues/
     └── json/
